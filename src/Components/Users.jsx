@@ -32,6 +32,7 @@ const Users = () => {
     <>
       <div className="container">
         <h1>Users Component</h1>
+        <h5>User Datails</h5>
       </div>
       {loading && (
         <div className="spinner-border" role="status">
