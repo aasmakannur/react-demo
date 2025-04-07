@@ -28,6 +28,10 @@ const Users = () => {
     getAllUsers();
   }, []);
 
+  function test() {
+    console.log("test");
+  }
+
   return (
     <>
       <div className="container">
